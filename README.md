@@ -16,11 +16,4 @@ This dataset contains a 2D grid of complex numbers stored in `uPlaneGrid_complex
 - Domain: ORAN, Device compliance 
 - License: MIT 
 
-## Usage  
-### Python Example:  
-```python
-import numpy as np
 
-# Load the dataset
-data = np.genfromtxt('uPlaneGrid_complex.csv', delimiter=',', dtype=np.complex128)
-print(data.shape)  # Output: (rows, columns)
