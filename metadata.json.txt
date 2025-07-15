@@ -1,0 +1,11 @@
+
+## Metadata
+{
+  "author": "Khalid Ibrahim",
+  "date_created": "2025-07-16",
+  "description": "Complex plane grid for ORAN device compliance.",
+  "units": "Dimensionless",
+  "source": "Generated using the MATLAB 5G toolbox",
+  "reference": "K. Ibrahim, M. Chraiti, O. Ercetin, and A. Ghrayeb, “Reinforcing Zero-Trust Security From
+a Task Compliance Perspective for ORAN system,” IEEE Transaction on Communication., pp.1–14, 2025."
+}
