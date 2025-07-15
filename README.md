@@ -1,19 +1,21 @@
 # oran-compliance
-This dataset is used for the compliance testing of the O-RAN devices. 
-## Description  
-This dataset contains a 2D grid of complex numbers stored in `uPlaneGrid_complex.csv`. Each cell represents a point on the complex plane, formatted as `a+bi` (e.g., `0.1867+0.0619i`).  
+
+## Description 
+This dataset is used for the compliance testing of the O-RAN devices. Each cell contains a complex IQ sample for a Resource Element (RE), as used in real-time transmission. This dataset corresponds to the time-frequency resource map in the O-RAN fronthaul U-Plane for a 100 MHz 5G NR signal using 30 kHz SCS:  
+
+
 
 ## File Format  
-- Format: CSV (Comma-Separated Values)  
+- Format: CSV
 - Structure:  
-  - Rows represent grid rows.  
-  - Columns represent grid columns.  
+  - Rows represent grid rows ( requency domain).  
+  - Columns represent grid columns (time domain).  
   - Delimiter: `,`  
   - Complex numbers are formatted as `real+imaginaryi`.  
 
 ## Metadata  
-- Size: 3276 x 280  
-- Domain: ORAN, Device compliance 
+- Size: 3276 × 280 (Frequency × Time)
+- Frequency: 3276 subcarriers = 273 PRBs × 12 subcarriers.  
+- Time: 280 OFDM symbols = 20 slots × 14 symbols per slot.  
+- Domain: ORAN, 5G
 - License: MIT 
-
-
