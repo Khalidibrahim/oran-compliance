@@ -18,4 +18,4 @@ This dataset is used for the compliance testing of the O-RAN devices. Each cell 
 - Frequency: 3276 subcarriers = 273 PRBs × 12 subcarriers.  
 - Time: 280 OFDM symbols = 20 slots × 14 symbols per slot.  
 - Domain: ORAN, 5G
-- License: MIT 
+- License: CC-BY 4.0 
