@@ -1,22 +1,20 @@
-## metadata.json  
-```json
 {
-  "title": "O-RAN U-Plane IQ Samples Dataset",
-  "description": "Complex IQ samples for O-RAN fronthaul compliance testing (100 MHz, 30 kHz SCS).",
-  "format": "CSV",
-  "schema": {
-    "rows": {
-      "count": 3276,
-      "description": "Frequency-domain subcarriers (273 PRBs × 12 subcarriers/PRB)."
+    "title": "O-RAN U-Plane IQ Samples Dataset",
+    "description": "Complex IQ samples for O-RAN fronthaul compliance testing (100 MHz, 30 kHz SCS).",
+    "format": "CSV",
+    "schema": {
+        "rows": {
+            "count": 3276,
+            "description": "Frequency-domain subcarriers (273 PRBs × 12 subcarriers/PRB)."
+        },
+        "columns": {
+            "count": 280,
+            "description": "Time-domain OFDM symbols (20 slots × 14 symbols/slot)."
+        },
+        "complex_format": "real+imaginaryi"
     },
-    "columns": {
-      "count": 280,
-      "description": "Time-domain OFDM symbols (20 slots × 14 symbols/slot)."
-    },
-    "complex_format": "real+imaginaryi"
-  },
-  "domain": "O-RAN, 5G NR",
-  "license": "CC-BY-4.0",
-  "creator": "[Your Name/Organization]",
-  "created": "2024-03-15"
+    "domain": "O-RAN, 5G NR",
+    "license": "CC-BY-4.0",
+    "creator": "Khalid Ibrahim",
+    "created": "2024-03-15"
 }
