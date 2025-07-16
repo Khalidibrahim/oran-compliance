@@ -1,7 +1,4 @@
-
----
-
-### 2. metadata.json  
+## 2. metadata.json  
 ```json
 {
   "title": "O-RAN U-Plane IQ Samples Dataset",
