@@ -1,11 +1,25 @@
 
-## Metadata
+---
+
+### 2. metadata.json  
+```json
 {
-  "author": "Khalid Ibrahim",
-  "date_created": "2025-07-16",
-  "description": "Complex plane grid for ORAN device compliance.",
-  "units": "Dimensionless",
-  "source": "Generated using the MATLAB 5G toolbox",
-  "reference": "K. Ibrahim, M. Chraiti, O. Ercetin, and A. Ghrayeb, “Reinforcing Zero-Trust Security From
-a Task Compliance Perspective for ORAN system,” IEEE Transaction on Communication., pp.1–14, 2025."
+  "title": "O-RAN U-Plane IQ Samples Dataset",
+  "description": "Complex IQ samples for O-RAN fronthaul compliance testing (100 MHz, 30 kHz SCS).",
+  "format": "CSV",
+  "schema": {
+    "rows": {
+      "count": 3276,
+      "description": "Frequency-domain subcarriers (273 PRBs × 12 subcarriers/PRB)."
+    },
+    "columns": {
+      "count": 280,
+      "description": "Time-domain OFDM symbols (20 slots × 14 symbols/slot)."
+    },
+    "complex_format": "real+imaginaryi"
+  },
+  "domain": "O-RAN, 5G NR",
+  "license": "CC-BY-4.0",
+  "creator": "[Your Name/Organization]",
+  "created": "2024-03-15"
 }
