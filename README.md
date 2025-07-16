@@ -8,7 +8,7 @@ This dataset is used for the compliance testing of the O-RAN devices. Each cell 
 ## File Format  
 - Format: CSV
 - Structure:  
-  - Rows represent grid rows ( requency domain).  
+  - Rows represent grid rows ( frequency domain).  
   - Columns represent grid columns (time domain).  
   - Delimiter: `,`  
   - Complex numbers are formatted as `real+imaginaryi`.  
